@@ -11,7 +11,7 @@ def scan_addicts2(array)
         results.push 'Mal'
         end
     end
-    putsresults
+    puts results
 end
 
 #Ejemplo
