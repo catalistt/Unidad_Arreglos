@@ -1,12 +1,9 @@
 #Arreglo dado
 a = [1, 9 ,2, 10, 3, 7, 4, 6]
 
-#sumar todos los elementos del array con map
-aux = 0
-b = a.map do |elem|
-    aux += elem
-end
-print "#{aux} \n"
+#sumar uno a todos los elementos del array con map
+b = a.map { |elem| elem + 1 }
+print "#{b} \n"
 
 #convertir todos los elementos a float
 c = a.map { |elem| elem.to_f }
